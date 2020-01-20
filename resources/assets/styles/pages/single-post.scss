@@ -1,0 +1,36 @@
+.single-post {
+  .share {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    strong {
+      writing-mode: tb-rl;
+    }
+    ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+    }
+  }
+  .container-text {
+    padding-bottom: 50px;
+    p {
+      margin-bottom: 20px;
+    }
+    img {
+      margin: 50px 0 15px 0;
+    }
+    span {
+      display: block;
+      color: #5a5a5a;
+      font-family: $source;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.86px;
+      line-height: 26px;
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,167 @@
+/**
+ * ============
+ * Typography
+ * ============
+ * Define as much reusable typography here
+ * such as `.text-hero`, which can be `@extend`-ed from other scss files
+ * This way, this file become a master list of typography used throughout the site
+ */
+.header__menu__links li,
+.header__menu__links a {
+  color: $color-blue;
+  font-family: $source;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  line-height: 22px;
+  text-transform: uppercase;
+  &:hover {
+    color: $color-blue;
+    text-decoration: none;
+  }
+  @include media-breakpoint-down(xs) {
+    font-size: 16px;
+    letter-spacing: 1.29px;
+    line-height: 26px;
+  }
+}
+.btn--link--secondary {
+  color: $color-blue;
+  font-family: $source;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  line-height: 22px;
+  text-transform: uppercase;
+  &:hover {
+    color: $color-blue;
+    text-decoration: none;
+  }
+}
+.tab__left [data-target] {
+  color: $color-blue;
+  font-family: $source;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1.22px;
+  line-height: 35px;
+  &:hover {
+    color: $color-blue;
+  }
+  @media (max-width: 356px) {
+    font-size: 15px;
+  }
+}
+.btn--link {
+  font-family: $source;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  line-height: 28px;
+}
+.rights-text {
+  color: #18194e;
+  font-family: $source;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.btn--yellow--primary span {
+  color: #18194e;
+  font-family: $source;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.btn--yellow--secondary span {
+  color: $color-white;
+  font-family: $source;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.btn--blue--primary span {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+.btn--blue--secondary span {
+  color: $color-white;
+  font-family: $source;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: $montserrat;
+  font-weight: 300;
+  color: #18194e;
+}
+p {
+  color: #18194e;
+  font-family: $source;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 21px;
+  font-size: 14px;
+}
+h1 {
+  font-size: 65px;
+  letter-spacing: 1.63px;
+  line-height: 75px;
+  @include media-breakpoint-down(sm) {
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 45px;
+  }
+}
+h2 {
+  font-size: 45px;
+  letter-spacing: 1.13px;
+  line-height: 55px;
+  @include media-breakpoint-down(sm) {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0.75px;
+    line-height: 35px;
+  }
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 22px;
+}
+.summary {
+  font-size: 17px;
+  letter-spacing: 1.21px;
+  line-height: 26px;
+}
+b {
+  font-weight: 400;
+}
+i {
+  font-style: italic;
+}
+label,
+input,
+.select2-selection__placeholder,
+.contact .select2-selection__rendered {
+  color: #18194e !important;
+  font-family: $source !important;
+  font-weight: 300 !important;
+  letter-spacing: 1px;
+  line-height: 21px;
+  font-size: 14px;
+}
+

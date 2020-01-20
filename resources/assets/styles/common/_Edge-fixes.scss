@@ -1,0 +1,20 @@
+@supports (-ms-ime-align:auto) {
+  .grad-block__left__img {
+    height: auto !important;
+  }
+  .home-grad-block {
+    max-height: 904px;
+    &__left {
+      max-height: 555px;
+    }
+  }
+  .all-news__items {
+    justify-content: space-between !important;
+  }
+  .featured-head__img {
+    width: 100%;
+  }
+  .prominent-cta video {
+    height: auto !important;
+  }
+}

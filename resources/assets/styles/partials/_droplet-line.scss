@@ -1,0 +1,44 @@
+.droplet-line {
+  position: absolute;
+  top: -202px;
+  right: 50%;
+  transform: translateX(50%);
+
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+
+  &__wrap {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  &__inner {
+    position: relative;
+  }
+  &__drop {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &.yellow {
+      svg path {
+        fill: #fff22a;
+      }
+    }
+  }
+  &__line {
+    z-index: 2;
+    height: 0;
+    width: 3px;
+    background: linear-gradient(180deg, #2e3092 0%, #52b878 100%);
+    will-change: height;
+    transition: height 0.36s ease-out;
+
+    &.section-2 {
+      background: linear-gradient(180deg, #b1b364 0%, #fcc249 45%, #fff22a 100%);
+    }
+  }
+}

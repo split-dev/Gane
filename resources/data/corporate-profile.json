@@ -1,0 +1,31 @@
+{
+  "page_title": "Corporate Profile",
+  "page-header": {
+    "title": "Corporate Profile",
+    "intro-statement": "<i>[Intro statement to provide context to page information]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit.",
+    "img": "images/main-screen-bg/graffiti.jpg"
+  },
+  "grad-block": {
+    "image": "images/pictures/mountain-road.jpg",
+    "alt": "Mountain Road",
+    "title": "Gane fuel Stategic objectives",
+    "text": "<i>[Touch on Gane Fuels strategic objectives]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate"
+  },
+  "image-content-block": {
+    "title": "News for Current <br/> & Future Shareholders",
+    "text": "<i>[Link to an article relevant to share holders]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis malesuada purus at risus posuere elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit.",
+    "href-1": "#",
+    "link-1": "READ MORE",
+    "btn-1-class": "btn--blue--primary",
+    "href-2": "#",
+    "link-2": "View the Gane Roadmap",
+    "btn-2-class": "btn--blue--secondary"
+  },
+  "half-size-img-block": {
+    "title": "High Level Key Selling Points",
+    "description": "<i>[A high level overview of Ganes key selling points with a link to learn more]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate <br/><br/> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. Donec rutrum mi non interdum pellentesque.",
+    "image": "images/pictures/fuel-save.jpg",
+    "link": "Learn more on WHY GANE FUEL",
+    "href": "#"
+  }
+}

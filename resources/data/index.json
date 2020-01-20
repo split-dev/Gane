@@ -1,0 +1,29 @@
+{
+  "page_title": "Home",
+  "news": [
+    {
+      "image": "images/news/news-post-1.jpg",
+      "date": "October 2019",
+      "title": "Coal-to-Liquid Fuel Production Could Offer Major National",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/news/news-post-2.jpg",
+      "date": "October 2019",
+      "title": "Diesel engine exhaust vs. the environment",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/news/news-post-3.jpg",
+      "date": "October 2019",
+      "title": "Diesel engine exhaust vs. the environment",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    }
+  ],
+  "footer-cta": {
+    "text": "For all expressions of interest"
+  }
+}

@@ -1,0 +1,12 @@
+@media not all and (min-resolution: 0.001dpcm) {
+  .post-tile__description {
+    height: auto;
+  }
+  .home-grad-block,
+  .home-grad-block__left,
+  .grad-block,
+  .grad-block__right,
+  .tab {
+    height: max-content;
+  }
+}

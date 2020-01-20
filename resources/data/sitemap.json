@@ -1,0 +1,33 @@
+{
+  "page_title": "Sitemap",
+  "sitemap": [
+    {
+      "title": "Home Page",
+      "url": "/index.html"
+    },
+    {
+      "title": "Blog",
+      "url": "/blog.html"
+    },
+    {
+      "title": "Individual Post",
+      "url": "/single-post.html"
+    },
+    {
+      "title": "Contact",
+      "url": "/contact.html"
+    },
+    {
+      "title": "Corporate Profile",
+      "url": "/corporate-profile.html"
+    },
+    {
+      "title": "Environment",
+      "url": "/environment.html"
+    },
+    {
+      "title": "Why Gane",
+      "url": "/why-gane.html"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    {{> ../common/head}}
+</head>
+<body class="single-post">
+{{> ../common/top-nav}}
+{{#with title}}
+    {{> ../partials/featured-post}}
+{{/with}}
+<section class="mini-box">
+  {{#each share}}
+      <div class="share" data-aos="fade up">
+          <strong>{{title}}</strong>
+          <ul>
+              {{#each social}}
+                  <li><a href="{{link}}"><img src="{{social-img}}" alt="link"></a></li>
+              {{/each}}
+          </ul>
+      </div>
+  {{/each}}
+  {{#each text-box}}
+      <div class="container-text" data-aos="fade up">
+          <p>{{text1}}</p>
+          <p>{{text2}}</p>
+          <img src="{{img}}" alt="img">
+          <span>{{desc-img}}</span>
+          <p>{{text3}}</p>
+      </div>
+  {{/each}}
+</section>
+<section class="news-section">
+    <div class="container d-flex flex-column">
+        <h3>Latest News & Insights</h3>
+        <div class="news-section__posts d-flex flex-column flex-md-row justify-content-md-between">
+          {{#each news}}
+            {{> ../partials/post-tile}}
+          {{/each}}
+        </div>
+        <a href="#" class="btn--link">See all News & Insights</a>
+    </div>
+</section>
+{{> ../common/footer-top}}
+{{> ../common/footer-bottom}}
+</body>
+</html>

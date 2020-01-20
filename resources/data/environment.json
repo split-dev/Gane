@@ -1,0 +1,19 @@
+{
+  "page_title": "Environmental Impact",
+  "page-header": {
+    "title": "What is our Environmental <br/> Impact",
+    "intro-statement": "<i>[Intro statement to provide context to page information]</i> Lonsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. Aliquam lobortis vehicula ipsum, eu mattis velit vehicula in.",
+    "img": "images/main-screen-bg/grass.jpg"
+  },
+  "grad-block": {
+    "image": "images/pictures/yellow-bus.jpg",
+    "alt": "Bus",
+    "title": "A new, clean fuel <br/> for Industry use",
+    "text": "<i>[Provide a technical explanation of why Gane are so much lower in Sox, NOX, PM]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate <br/> <br/> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. Donec rutrum mi non interdum pellentesque."
+  },
+  "half-size-img-block": {
+    "title": "Content block",
+    "description": "<i>[Opportunity to add more relevant content here]</i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate <br/> <br/> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. Donec rutrum mi non interdum pellentesque.",
+    "image": "images/pictures/micro-shoot.jpg"
+  }
+}

@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    {{> ../common/head}}
+</head>
+<body class="corporate-profile">
+    {{> ../common/top-nav}}
+    {{> ../partials/page-header}}
+    {{> ../partials/gradient-content-block}}
+    {{> ../partials/half-size-img-block}}
+    <section class="our-team">
+        <div class="our-team__description">
+            <h2>Our Team</h2>
+            <p>
+                [Brief introduction to the Gane team] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc.
+            </p>
+        </div>
+        <div class="d-flex flex-column flex-lg-row align-items-center align-items-lg-start">
+            <div class="our-team__picture">
+                <img src="images/pictures/team.jpg" alt="Our Team">
+            </div>
+            <div class="our-team__accordion">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Greg Morris, B Eng (Chem)
+                                    <p><i>Founder, Director, Research & Development</i></p>
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel porttitor nunc. Quisque sit amet mauris scelerisque, vestibulum arcu eu, luctus sem. Curabitur euismod, lectus ac dignissim congue.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Paul Cooper, Ba (Econ) LLB
+                                    <p><i>Founder, Director, Research & Development</i></p>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel porttitor nunc. Quisque sit amet mauris scelerisque, vestibulum arcu eu, luctus sem. Curabitur euismod, lectus ac dignissim congue.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Greg Morris, B Eng (Chem)
+                                    <p><i>Founder, Director, Research & Development</i></p>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel porttitor nunc. Quisque sit amet mauris scelerisque, vestibulum arcu eu, luctus sem. Curabitur euismod, lectus ac dignissim congue.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{> ../partials/image-content-block}}
+    {{> ../common/footer-top}}
+    {{> ../common/footer-bottom}}
+</body>
+</html>

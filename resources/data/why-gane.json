@@ -1,0 +1,74 @@
+{
+  "page_title": "Why Gane Fuel",
+  "page-header": {
+    "title": "Why Gane Fuel?",
+    "intro-statement": "<i>[Intro statement to provide context to page information]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit.",
+    "img": "images/main-screen-bg/track.jpg"
+  },
+  "grad-block": {
+    "grad-type": "blue",
+    "image": "images/pictures/pollution.jpg",
+    "alt": "Bus",
+    "title": "A new, clean fuel <br/> for Industry use",
+    "text": "<i>[Opportunity to add more relevant content here]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate <br/> <br/> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. Donec rutrum mi non interdum pellentesque."
+  },
+  "tab": [
+    {
+      "id": "1",
+      "button": "Comparisons to diesel",
+      "text": "<i>[Information on Gane fuels comparison to diesel. You don not have to have images in these sections if not applicable]</i> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictumLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. nunc vulputate blandit.",
+      "image": "images/pictures/night-mining.jpg"
+    },
+    {
+      "id": "2",
+      "button": "Understanding of engine <br> modifications",
+      "text": "<i>Understanding of engine modifications tab! You don not have to have images in these sections if not applicable]</i> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictumLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. nunc vulputate blandit.",
+      "image": "images/pictures/night-mining.jpg"
+    },
+    {
+      "id": "3",
+      "button": "Energy density",
+      "text": "Third Tab <i>[Information on Gane fuels comparison to diesel. You don not have to have images in these sections if not applicable]</i> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictumLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. nunc vulputate blandit.",
+      "image": "images/pictures/night-mining.jpg"
+    },
+    {
+      "id": "4",
+      "button": "Patents",
+      "text": "Forth Tab <i>[Information on Gane fuels comparison to diesel. You don not have to have images in these sections if not applicable]</i> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictumLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. nunc vulputate blandit.",
+      "image": "images/pictures/night-mining.jpg"
+    },
+    {
+      "id": "5",
+      "button": "Safety & Handling",
+      "text": "Fifth Tab <i>[Information on Gane fuels comparison to diesel. You don not have to have images in these sections if not applicable]</i> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictumLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. nunc vulputate blandit.",
+      "image": "images/pictures/night-mining.jpg"
+    },
+    {
+      "id": "6",
+      "button": "Regulatory approval",
+      "text": "Sixth tab<i>[Information on Gane fuels comparison to diesel. You don not have to have images in these sections if not applicable]</i> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictumLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. nunc vulputate blandit.",
+      "image": "images/pictures/night-mining.jpg"
+    },
+    {
+      "id": "7",
+      "button": "Depth on how/why Gane Fuel is good",
+      "text": "Seventh Tab <i>[Information on Gane fuels comparison to diesel. You don not have to have images in these sections if not applicable]</i> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictumLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. nunc vulputate blandit.",
+      "image": "images/pictures/night-mining.jpg"
+    }
+  ],
+  "half-size-img-block": {
+    "title": "Content block",
+    "description": "<i>[Opportunity to add more relevant content here]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate <br/> <br/> Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. Donec rutrum mi non interdum pellentesque.",
+    "image": "images/pictures/windmill.jpg"
+  },
+  "image-content-block": {
+    "title": "Gane fuel and alternative fuel to diesel",
+    "text": "<i>[Link to an article on alternative fuels]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis malesuada purus at risus posuere elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur.",
+    "href-1": "#",
+    "link-1": "READ MORE ON ALTERNATIVE FUELS",
+    "btn-1-class": "btn--yellow--primary"
+  },
+  "footer-cta": {
+    "text": "Are you interested in becoming a demonstration partner?"
+  }
+}

@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    {{> ../common/head}}
+</head>
+<body class="why-gane">
+{{> ../common/top-nav}}
+{{> ../partials/page-header}}
+<div class="container-box">
+    <section class="fuel-structure d-flex align-items-center justify-content-center">
+        <div class="fuel-structure__left" data-aos="fade up">
+            <div class="fuel-structure__left__drop"  style="background-image: url('images/drop/drop-bg.jpg')">
+                <img class="lazy" data-src="images/drop/tear-drop-mask.png" alt="#">
+                    <div class="fuel-structure__left__text">
+                        <span>DME (Di-Methyl Ether)</span>
+                        <span>Methanol</span>
+                        <span>Water</span>
+                        <span>Additive Mixture</span>
+                        <p>
+                            Made from natural gas or renewables, or a blend of both
+                        </p>
+                    </div>
+            </div>
+        </div>
+        <div class="fuel-structure__right" data-aos="fade up">
+            <h2>Content block</h2>
+            <p>
+                <i>[Information about Gane Fuel, opportunity to include fuel compostion detailed graphic here]</i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate blandit. onsectetur adipiscing elit. Nulla pulvinar ipsum eu nunc vulputate
+                <br/>
+                <br/>
+                Donec sem nisl, volutpat vel elit nec, molestie sollicitudin dui. Proin non dictum ex, in tincidunt tortor. Vestibulum finibus euismod velit ac convallis. Donec rutrum mi non interdum pellentesque.
+            </p>
+        </div>
+    </section>
+</div>
+<section class="tab-box container-box">
+    <h4>Key Selling Points headline goes here</h4>
+    <div class="tab d-flex">
+        <div class="tab__left">
+            <ul>
+                {{#each tab}}
+                <li data-target="{{id}}">{{{button}}}</li>
+                {{/each}}
+            </ul>
+        </div>
+        <div class="tab__right">
+            {{#each tab}}
+            <div class="tab__content" id="{{id}}">
+                <h2>{{{button}}}</h2>
+                <p>{{{text}}}</p>
+                <div class="tab__img bg-center" style="background-image: url('{{image}}')"></div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>
+{{> ../partials/gradient-content-block}}
+{{> ../partials/half-size-img-block}}
+{{> ../partials/image-content-block}}
+{{> ../partials/footer-cta}}
+{{> ../common/footer-top}}
+{{> ../common/footer-bottom}}
+</body>
+</html>

@@ -1,0 +1,15 @@
+<section class="page-header">
+    {{# with page-header}}
+    <div class="page-header__container d-flex flex-column flex-md-row align-items-md-center">
+        <div class="page-header__text aos-init">
+            <h2>{{{title}}}</h2>
+        </div>
+        <div class="page-header__text aos-init">
+            <p class="summary">{{{intro-statement}}}</p>
+        </div>
+    </div>
+    {{#if img}}
+    <div class="page-header__img bg-center aos-init" style="background-image: url('{{img}}')"></div>
+    {{/if}}
+    {{/with}}
+</section>

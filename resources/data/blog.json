@@ -1,0 +1,55 @@
+{
+  "page_title": "News & Insights",
+  "title": {
+      "img": "images/blog/amster.jpg",
+      "date": "October 2019",
+      "title": "Gane Fuel has secured technology partners with Amsterdam transport",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus ut odio quis faucibus. Vivamus et lectus ut dui dignissim lobortis. Vestibulum eget ante scelerisque, tempor massa eu.",
+      "link": "READ ARTICLE",
+      "href": "#"
+    },
+  "post-all": [
+    {
+      "image": "images/blog/one.jpg",
+      "date": "October 2019",
+      "title": "Coal-to-Liquid Fuel Production Could Offer Major National Advantage",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/blog/two.jpg",
+      "date": "October 2019",
+      "title": "Diesel engine exhaust vs. the environment",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/blog/three.jpg",
+      "date": "October 2019",
+      "title": "Diesel engine exhaust vs. the environment",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/blog/four.jpg",
+      "date": "October 2019",
+      "title": "Gane fuel and alternative fuel to diesel",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/blog/five.jpg",
+      "date": "October 2019",
+      "title": "Diesel engine exhaust vs. the environment",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/blog/six.jpg",
+      "date": "October 2019",
+      "title": "Diesel engine exhaust vs. the environment",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    }
+  ]
+}

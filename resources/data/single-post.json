@@ -1,0 +1,64 @@
+{
+  "page_title": "Individual News & Insights",
+  "title": {
+    "img": "images/blog/amster.jpg",
+    "date": "October 2019",
+    "title": "Gane Fuel has secured technology partners with Amsterdam transport",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin luctus ut odio quis faucibus. Vivamus et lectus ut dui dignissim lobortis. Vestibulum eget ante scelerisque, tempor massa eu."
+  },
+  "news": [
+    {
+      "image": "images/news/news-post-1.jpg",
+      "date": "October 2019",
+      "title": "Coal-to-Liquid Fuel Production Could Offer Major National Advantage",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/news/news-post-2.jpg",
+      "date": "October 2019",
+      "title": "Diesel engine exhaust vs. the environment",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    },
+    {
+      "image": "images/news/news-post-3.jpg",
+      "date": "October 2019",
+      "title": "Diesel engine exhaust vs. the environment",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris et velit pellentesque.",
+      "link": "#"
+    }
+  ],
+  "share": [
+    {
+      "title": "Share me",
+      "social": [
+        {
+          "link": "#",
+          "social-img": "images/social/facebook.svg"
+        },
+        {
+          "link": "#",
+          "social-img": "images/social/twitter.svg"
+        },
+        {
+          "link": "#",
+          "social-img": "images/social/linkedin.svg"
+        },
+        {
+          "link": "#",
+          "social-img": "images/social/email.svg"
+        }
+      ]
+    }
+  ],
+  "text-box": [
+    {
+      "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis arcu. Sed sit amet risus maximus, viverra enim pretium, bibendum diam. Vestibulum vitae molestie arcu, eu consectetur libero. Nulla pharetra purus sit amet magna viverra, ac dapibus urna lobortis. Nullam et sem nisl. In ullamcorper, est at dapibus commodo, sapien arcu semper turpis, maximus consectetur dui nisl vel ligula. In pulvinar, magna eu fringilla porta, neque enim dapibus lorem, non auctor orci arcu sit amet orci. Aliquam tellus magna, viverra ut semper sit amet, gravida sit amet felis. Cras ac tristique urna.",
+      "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis arcu. Sed sit amet risus maximus, viverra enim pretium, bibendum diam. Vestibulum vitae molestie arcu, eu consectetur libero. Nulla pharetra purus sit amet magna viverra, ac dapibus urna lobortis. Nullam et sem nisl. In ullamcorper, est at dapibus commodo, sapien arcu semper turpis, maximus consectetur dui nisl vel ligula. In pulvinar, magna eu fringilla porta, neque enim dapibus lorem, non auctor orci arcu sit amet orci. Aliquam tellus magna, viverra ut semper sit amet, gravida sit amet felis. Cras ac tristique urna.",
+      "img": "images/posters/map.jpg",
+      "desc-img": "Amsterdam Centrale Bus Depot",
+      "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel mollis arcu. Sed sit amet risus maximus, viverra enim pretium, bibendum diam. Vestibulum vitae molestie arcu, eu consectetur libero. Nulla pharetra purus sit amet magna viverra, ac dapibus urna lobortis. Nullam et sem nisl. In ullamcorper, est at dapibus commodo, sapien arcu semper turpis, maximus consectetur dui nisl vel ligula. In pulvinar, magna eu fringilla porta, neque enim dapibus lorem, non auctor orci arcu sit amet orci. Aliquam tellus magna, viverra ut semper sit amet, gravida sit amet felis. Cras ac tristique urna."
+    }
+  ]
+}

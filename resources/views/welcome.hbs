@@ -1,0 +1,182 @@
+<!--
+  This is just an opening page for welcoming developers to the project
+  feel free to delete this file during development.
+-->
+<style>
+  body,
+  main {
+      position: fixed;
+      min-height: 100vh;
+      width: 100%;
+      color: #fff;
+      background: #232526;  /* fallback for old browsers */
+  }
+  .welcome {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      padding-left: 40px; padding-right: 40px;
+      transform: translate(0, -50%);
+  }
+  .welcome-logo {
+      position: relative;
+      display: block;
+      width: 90px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+  }
+  h1 {
+      font-family: "Helvetica Neue", "Arial";
+      font-size: 48px;
+      font-weight: 600;
+      text-align: center;
+  }
+  .login {
+    outline: none;
+    box-shadow: none;
+    display: block;
+    padding: 15px 15px;
+    width: 320px;
+    border-radius: 4px;
+    margin-top: 2rem;
+    background-color: #303030;
+    color: #fff;
+    border: 1px solid #393939;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.24s ease, box-shadow 0.24s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
+  .login:hover {
+      text-decoration: none;
+      color: #fff;
+      background-color: #1e1e1e;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .welcome-cover,
+  .welcome-cover-bg,
+  .welcome-cover-overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+  }
+  .welcome-cover-bg {
+      object-fit: cover;
+  }
+  .welcome-cover-overlay {
+      background-color: #303030;
+      opacity: 0.85;
+  }
+  .main-wrap {
+    position: relative;
+    transform: translate(0, 40px);
+    opacity: 0;
+    transition:
+      transform 0.48s cubic-bezier(0.075, 0.82, 0.165, 1) 0.36s,
+      opacity 0.38s linear 0.36s;
+  }
+  .main-wrap.in {
+    transform: translate(0, 0px);
+    opacity: 1;
+  }
+  .logo-wrap {
+    width: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #trueLottie {
+    position: fixed;
+    left: 50%; top: 0;
+    width: 380px;
+    margin-left: -190px;
+    transition: transform 0.48s ease-in-out;
+  }
+  #trueLottie.in {
+    transform: translate(0, -100px) scale(0.7, 0.7);
+  }
+  .list-none {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .sample-link {
+    display: inline-block;
+    padding: 6px 15px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    transition: opacity 0.22s ease;
+  }
+  .sample-link:hover {
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+  }
+</style>
+
+<!--
+    This welcome cover element demonstrate auto-loading SASS/Javascript
+    with external dependencies (https://github.com/verlok/lazyload).
+    The styles and scripts that enables this functionalities are in
+    - resources/assets/scripts/autoload/_lazy-load.js
+    - resources/assets/styles/autoload/_lazy.scss
+-->
+<div class="welcome-cover">
+    <img class="welcome-cover-bg lazy zoom"
+        data-src="https://source.unsplash.com/random/1200x800/"
+        data-srcset="
+            https://source.unsplash.com/random/480x320/ 480w,
+            https://source.unsplash.com/random/600x400/ 600w,
+            https://source.unsplash.com/random/1200x800/ 1200w
+        ">
+    <div class="welcome-cover-overlay"></div>
+</div>
+<div class="logo-wrap">
+  <div id="trueLottie"></div>
+</div>
+<div class="welcome">
+    <div class="main-wrap" id="mainWrap">
+      <!-- This variable is injected based on .json file in data folder -->
+      <h1>{{ welcome_title }}</h1>
+      <div class="text-center mt-4">
+          <a href="{{ nimble_guide_url }}"
+              target="_blank"
+              class="login">
+              View Getting Started Guide
+          </a>
+      </div>
+      <div class="text-center">
+        <div class="mt-4 mb-3 text-sm text-gray-700 border-t border-gray-600">
+          Just getting started? Have a look at some of our examples:
+        </div>
+        <ul class="list-none">
+          {{#each nimble_examples}}
+          <li class="">
+            <a href="{{ url }}"
+              class="sample-link">
+              {{ label }}
+            </a>
+          </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+</div>
+<!--
+  Generally inlining <script> is a really BAD idea,
+  this is only here for demonstration purpose.
+-->
+<script>
+window.setTimeout(function () {
+  document.getElementById('mainWrap')
+    .classList.add('in')
+  document.getElementById('trueLottie')
+    .classList.add('in')
+}, 2800);
+</script>

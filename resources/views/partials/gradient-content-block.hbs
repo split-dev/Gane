@@ -1,0 +1,16 @@
+{{#with grad-block}}
+    <section class="grad-block">
+        <div class="container-box--full d-flex flex-column-reverse flex-md-row justify-content-between">
+            <div class="grad-block__left {{# if grad-type}}blue{{/if}}" data-aos="fade up">
+                <div class="grad-block__left__img">
+                    <img class="lazy" data-src="{{image}}" alt="{{alt}}">
+                </div>
+            </div>
+            <div class="grad-block__right d-flex flex-column justify-content-center" data-aos="fade up">
+                <h2>{{{title}}}</h2>
+                <p class="summary">{{title-secondary}}</p>
+                <p>{{{text}}}</p>
+            </div>
+        </div>
+    </section>
+{{/with}}

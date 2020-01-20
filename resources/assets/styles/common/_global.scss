@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+}
+.container-box {
+  max-width: 1172px;
+  margin: auto;
+  padding: 0 15px;
+  overflow: visible;
+}
+.mini-box {
+  max-width: 1020px;
+  margin: auto;
+  padding: 0 15px;
+  display: flex;
+}
+.container-text {
+  max-width: 785px;
+  padding: 0 15px;
+  margin: auto;
+}
+.container-box--full {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.lazy {
+  opacity: 1;
+}

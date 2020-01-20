@@ -1,0 +1,12 @@
+<section class="half-size-img d-flex flex-column flex-lg-row align-items-center align-items-lg-end">
+    {{# with half-size-img-block}}
+    <div class="half-size-img__content d-flex flex-column justify-content-center align-items-center align-items-xl-end" data-aos="fade up">
+        <h2>{{{title}}}</h2>
+        <p>{{{description}}}</p>
+        {{#if link}}
+            <a href="{{href}}" class="btn--link">{{link}}</a>
+        {{/if}}
+    </div>
+    <div class="half-size-img__img bg-center" style="background-image: url('{{image}}')" data-aos="fade up"></div>
+    {{/with}}
+</section>

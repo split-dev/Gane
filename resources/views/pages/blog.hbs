@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    {{> ../common/head}}
+</head>
+<body class="blog">
+{{> ../common/top-nav}}
+{{#with title}}
+    {{> ../partials/featured-post}}
+{{/with}}
+<section class="all-news">
+    <div class="container">
+        <div class="row">
+            <div class="all-news__title d-flex justify-content-between">
+                <h3>Latest News & Insights</h3>
+                <div class="all-news__select d-flex align-items-center">
+                    <p>Categories: </p>
+                    <select name="category" id="category" class="select2-select">
+                        <option value="All News">All News</option>
+                        <option value="Envirenment">Envirenment</option>
+                        <option value="Earth">Earth</option>
+                    </select>
+                </div>
+            </div>
+            <div class="all-news__items">
+                {{#each post-all}}
+                    {{> ../partials/post-tile}}
+                {{/each}}
+            </div>
+        </div>
+        <div class="row">
+            <nav>
+              <ul class="pagination justify-content-center justify-content-sm-end">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true"></span>
+                  </a>
+                </li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true"></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+        <div class="row">
+            {{> ../partials/newsletter-box}}
+        </div>
+    </div>
+</section>
+{{> ../common/footer-top}}
+{{> ../common/footer-bottom}}
+</body>
+</html>

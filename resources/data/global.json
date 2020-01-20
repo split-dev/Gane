@@ -1,0 +1,35 @@
+{
+  "header": {
+    "img": "images/logos/logo.svg",
+    "navigation": [
+      {
+        "page": "Home",
+        "link": "index.html"
+      },
+      {
+        "page": "Environmental Impact",
+        "link": "environment.html"
+      },
+      {
+        "page": "Why Gane Fuel",
+        "link": "why-gane.html"
+      },
+      {
+        "page": "Corporate Profile",
+        "link": "corporate-profile.html"
+      },
+      {
+        "page": "News & Insights",
+        "link": "blog.html"
+      },
+      {
+        "page": "Contact Us",
+        "link": "contact.html"
+      }
+    ]
+  }
+}
+
+
+
+

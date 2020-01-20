@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    {{> ../common/head}}
+</head>
+<body class="home">
+{{> ../common/top-nav}}
+<section class="entry-screen">
+    <div class="container-box d-flex flex-column flex-lg-row justify-content-between aos-init">
+        <div class="entry-screen__text aos-init">
+            <h1>Cleaner, <br> Better Fuel</h1>
+            <p class="summary">
+                Gane Energy has developed a new liquid fuel for use in medium-heavy duty industrial diesel applications
+            </p>
+        </div>
+        <div class="entry-screen__video aos-init">
+            <video class="lazy" id="clouds" poster="images/posters/clouds.jpg" muted autoplay loop>
+                <source type="video/mp4" data-src="images/media/clouds.mp4"/>
+                <source type="video/webm" data-src="images/media/clouds.webm"/>
+                <source type="video/ogg" data-src="images/media/clouds.ogv"/>
+            </video>
+        </div>
+    </div>
+</section>
+<div class="droplet-line__wrap" data-droplet-line-wrap>
+    <div class="droplet-line">
+        <div class="droplet-line__inner">
+            <div class="droplet-line__line" data-droplet-line></div>
+            <div class="droplet-line__drop" data-droplet-icon>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" viewBox="0 0 16 24"><g><g><path fill="#2e3092" d="M8 24c4.418 0 8-3.619 8-8.083S8 0 8 0 0 11.453 0 15.917 3.582 24 8 24z"/></g></g></svg>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="scroll-out" id='line-container'>
+    <div class="linear-grad__container">
+    {{!-- <div class="linear-grad"></div> --}}
+    <section class="grad-block">
+        <div class="container-box--full d-flex flex-column-reverse flex-md-row justify-content-between">
+            <div class="grad-block__left" data-aos="fade up">
+                <div class="grad-block__left__img">
+                    <video class="lazy" id="sky" poster="images/posters/fog.png" muted autoplay loop>
+                        <source type="video/mp4" data-src="images/media/sky.mp4"/>
+                    </video>
+                </div>
+            </div>
+            <div class="grad-block__right d-flex flex-column justify-content-center" data-aos="fade up">
+                <h2>Diesel Engines <br/> & Public Health</h2>
+                <h4>Secondary statment</h4>
+                <p>[<i>The Context</i> : summarise industry’s reliance on diesel & the need for a solution] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis doctor  malesuada purus at risus posuere elementum. Nam et odio eu.</p>
+            </div>
+        </div>
+    </section>
+    <div class="container-box">
+        <section class="home-phrase" data-aos="fade up" data-aos-anchor-placement="center-bottom">
+            <h2>The phase-out of Diesel engines is starting between 2025 and 2050</h2>
+        </section>
+    </div>
+</div>
+<section class="home-grad-block">
+    <div class="container-box--full d-flex flex-column flex-md-row justify-content-between">
+        <div class="home-grad-block__left" data-aos="fade up" data-line-switch>
+            <div class="home-grad-block__left__content">
+                <h2>
+                    Reducing diesel pollution is now a
+                    public priority
+                </h2>
+                <p>
+                    [<i>The problem</i>: eg Diesel use around the world, Polluting effects, SOx NOx & Pm] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis malesuada purus at risus posuere elementum.
+                </p>
+                <a href="#" class="btn--link">Learn more on Diesels Environmental Impact</a>
+            </div>
+        </div>
+        <div class="home-grad-block__right" data-aos="fade up">
+            <div class="home-grad-block__right__img" data-aos="fade up">
+                <video class="lazy" id="fog" muted autoplay loop poster="images/posters/sky.png">
+                    <source type="video/mp4" data-src="images/media/fog.mp4"/>
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="linear-grad-2__container">
+    {{!-- <div class="linear-grad-2"></div> --}}
+    <div class="container-box">
+        <section class="fuel-structure d-flex align-items-center justify-content-center">
+            <div class="fuel-structure__left" data-aos="fade up">
+                <div class="fuel-structure__left__drop"  style="background-image: url('images/drop/drop-bg.jpg')">
+                    <img class="lazy" data-src="images/drop/tear-drop-mask.png" alt="#">
+                    <div class="fuel-structure__left__text">
+                        <span>DME (Di-Methyl Ether)</span>
+                        <span>Methanol</span>
+                        <span>Water</span>
+                        <span>Additive Mixture</span>
+                        <p>
+                            Made from natural gas or renewables, or a blend of both
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="fuel-structure__right" data-aos="fade up">
+                <h2>Why Gane Fuel</h2>
+                <p>
+                    [<i>The solution</i>: eg natural gas, carbon neutral, renewable etc] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tosato malesuada purus at risus posuere elementum nam et odio eu dui
+                </p>
+                <a href="#" class="btn--link">Learn more about Gane Fuel</a>
+            </div>
+        </section>
+    </div>
+    {{> ../partials/graph-cta}}
+</div>
+</section>
+{{> ../partials/prominent-cta}}
+<section class="news-section">
+    <div class="container d-flex flex-column">
+        <h3>Latest News & Insights</h3>
+        <div class="news-section__posts d-flex flex-column flex-md-row justify-content-lg-between">
+          {{#each news}}
+            {{> ../partials/post-tile}}
+          {{/each}}
+        </div>
+        <a href="#" class="btn--link">See all News & Insights</a>
+    </div>
+</section>
+{{> ../partials/footer-cta}}
+{{> ../common/footer-top}}
+{{> ../common/footer-bottom}}
+</body>
+</html>

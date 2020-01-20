@@ -1,0 +1,17 @@
+<section class="image-content-block d-flex">
+    <div class="image-content-block__left" data-aos="fade up">
+        <img src="images/graph/Combined_Shape.svg" alt="#">
+    </div>
+    {{#with image-content-block}}
+    <div class="image-content-block__right" data-aos="fade up">
+        <h2>{{{title}}}</h2>
+        <p>{{{text}}}</p>
+        <div class="image-content-block__right__buttons d-flex">
+            <a href="{{href-1}}" class="{{btn-1-class}}"><span>{{link-1}}</span></a>
+            {{# if link-2}}
+            <a href="{{href-2}}" class="{{btn-2-class}}"><span>{{link-2}}</span></a>
+            {{/if}}
+        </div>
+    </div>
+    {{/with}}
+</section>

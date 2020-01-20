@@ -1,0 +1,81 @@
+@import "common/variables";
+@import "bootstrap";
+
+/** Utilities & Helpers */
+@import "utilities/position";
+
+/** Import theme styles */
+@import "reset";
+@import "mixins";
+@import "type";
+
+/** Import everything from autoload */
+@import "./autoload/**/*";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+// @import "~swiper/swiper";
+@import "~select2/dist/css/select2.min.css";
+
+/**
+ * ==========
+ * Components
+ * ==========
+ * Components are reusable UI elements on pages, for example:
+ * - generic components can be buttons, navs, gallery slider
+ * - page-specific components such as testimonials
+ */
+// @import "components/buttons";
+// The following line is only used for example
+// and can be safely deleted.
+@import "common/fonts";
+@import "common/buttons";
+@import "common/global";
+@import "partials/gradient-content-block";
+@import "partials/footer-cta";
+@import "partials/graph-cta";
+@import "partials/prominent-cta";
+@import "partials/post-tile";
+@import "partials/page-header";
+@import "partials/half-size-img-block";
+@import "partials/featured-post";
+@import "partials/image-content-block";
+@import "partials/newsletter-box";
+@import "partials/droplet-line";
+
+/**
+ * ==========
+ * Cross Browser Fixes
+ * ==========
+ */
+@import "common/Safari-fixes";
+@import "common/IE-fixes";
+@import "common/Edge-fixes";
+@import "common/Firefox-fixes";
+
+/**
+ * ==========
+ * Layouts
+ * ==========
+ * Layouts define the scaffold of the application
+ * such as header, footer
+ */
+@import "layouts/top-nav";
+@import "layouts/footer";
+
+/**
+ * ==========
+ * Pages
+ * ==========
+**/
+@import "pages/home";
+@import "pages/environment";
+@import "pages/blog";
+@import "pages/single-post";
+@import "pages/why-gane";
+@import "pages/corporate-profile";
+@import "pages/contact";

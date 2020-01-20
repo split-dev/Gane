@@ -1,0 +1,49 @@
+.post-tile {
+  max-width: 328px;
+  min-height: 469px;
+  transition: 0.3s;
+  background-color: $color-white;
+  @include media-breakpoint-down(lg) {
+    max-width: 300px;
+  }
+  @include media-breakpoint-down(md) {
+    margin-bottom: 20px;
+  }
+  &__img {
+    height: 185px;
+  }
+  &__description {
+    padding: 29px 35px;
+    height: calc(100% - 185px);
+    span {
+      color: $color-blue;
+      font-family: $source;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.86px;
+      line-height: 22px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      margin-bottom: 20px;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: 0.91px;
+      line-height: 26px;
+    }
+    @include media-breakpoint-up(lg) {
+      .btn--link--secondary {
+        padding-top: 20px;
+        display: block;
+        color: transparent;
+        transition: 0.3s;
+      }
+    }
+  }
+  &:hover {
+    box-shadow: 0 6px 25px 0 rgba(0, 0, 0, 0.15);
+    .btn--link--secondary {
+      color: $color-blue;
+    }
+  }
+}

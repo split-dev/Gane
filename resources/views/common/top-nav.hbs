@@ -1,0 +1,17 @@
+<header>
+    <div class="header__content d-flex justify-content-between">
+        <div class="header__img">
+            <a href="index.html"><img src="{{header.img}}" alt="Gane Energy Icon"></a>
+        </div>
+        <nav class="header__menu">
+            <ul class="header__menu__links d-flex flex-column justify-content-end align-items-end">
+                <li>{{page_title}}</li>
+                {{#each header.navigation}}
+                <li><a href="{{link}}">{{page}}</a><br></li>
+                {{/each}}
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="header__base"></div>
+<div class="header__mask"></div>

@@ -1,0 +1,94 @@
+.our-team {
+  max-width: 1170px;
+  padding: 0 15px 171px;
+  margin: 147px auto 0;
+  border-bottom: 1px solid #dedede;
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 40px;
+    margin-top: 40px;
+  }
+  &__description {
+    max-width: 460px;
+    @include media-breakpoint-down(md) {
+      max-width: none;
+    }
+    h2 {
+      margin-bottom: 26px;
+    }
+    p {
+      margin-bottom: 50px;
+    }
+  }
+  &__picture {
+    width: 50%;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 23px;
+      max-width: 472px;
+      width: 100%;
+    }
+    img {
+      max-width: 460px;
+      width: 100%;
+      @include media-breakpoint-down(md) {
+        max-width: none;
+      }
+    }
+  }
+  &__accordion {
+    width: 50%;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 23px;
+      max-width: 472px;
+      width: 100%;
+    }
+    .card {
+      margin-top: 15px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    .btn-link {
+      text-decoration: none;
+      text-align: left;
+      padding: 7px 0;
+      font-family: $source;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 1.22px;
+      line-height: 24px;
+      border-bottom: 1px solid transparent;
+      border-radius: 0;
+      width: 100%;
+      transition: 0.15s;
+      position: relative;
+      &:after {
+        content: "\e903";
+        font-family: $gane;
+        font-size: 11.5px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        transition: 0.3s;
+      }
+      &.collapsed {
+        border-bottom: 1px solid $color-blue;
+        &:after {
+          content: "\e904";
+        }
+      }
+    }
+  }
+}
+.corporate-profile {
+  .half-size-img__content a {
+    width: 237px;
+    margin-right: 335px;
+    @include media-breakpoint-down(lg) {
+      margin-right: 235px;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-right: 0;
+    }
+  }
+}
