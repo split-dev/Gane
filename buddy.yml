@@ -1,0 +1,40 @@
+# Remember to replace target_site_url and NOW_APP name
+- pipeline: "Deploy Now"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "master"
+  ref_type: "BRANCH"
+  target_site_url: "https://gane.trueagency.now.sh/"
+  trigger_condition: "ALWAYS"
+  actions:
+  - action: "Execute: yarn build"
+    type: "BUILD"
+    working_directory: "/buddy/web"
+    docker_image_name: "library/node"
+    docker_image_tag: "10.16.3"
+    execute_commands:
+    - "yarn install"
+    - "yarn build"
+    - "cd public/ && now -n ${NOW_APP} --target staging"
+    - ""
+    setup_commands:
+    - "npm i -g --unsafe-perm now"
+    - "now login jofry@trueagency.com.au"
+    - "now switch trueagency"
+    - ""
+    mount_filesystem_path: "/buddy/web"
+    shell: "BASH"
+    trigger_condition: "ALWAYS"
+  - action: "Send notification to js channel"
+    type: "SLACK"
+    content: "[#$BUDDY_EXECUTION_ID] $BUDDY_PIPELINE_NAME execution by <$BUDDY_INVOKER_URL|$BUDDY_INVOKER_NAME> Commit Message: $BUDDY_EXECUTION_REVISION_MESSAGE"
+    channel: "CP4EH7KS8"
+    channel_name: "upwork-deploy"
+    attachments:
+    - "{\"fallback\":\"$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID\",\"color\":\"good\",\"fields\":[{\"title\":\"Click here to view\",\"value\":\"<$BUDDY_PIPELINE_TARGET_SITE_URL>\",\"short\":true}]}"
+    trigger_condition: "ALWAYS"
+    integration_id: 55948
+  variables:
+  - key: "NOW_APP"
+    value: "gane"
+    id: 201302
+    description: ""
